@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+.screenContainer {
+  background-color: #222;
+  height: 85%;
+  cursor:crosshair;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.screenContainer button{
+width: 70px;
+height: 70px;
+border-radius: 50%; 
+}
+
+.d-none{
+  display: none;
+}
+
+.screenContainer p{
+  position: absolute;
+  color: white;
+  font-size: 2rem;
+  top: 25px;
+  right: 25px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.displayContainer {
+  background-color: rgb(62, 62, 65);
+  height: 15%;
+  border-top: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.displayContainer button {
+  width: 15rem;
+  height: 2.5rem;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+
+button:hover{
+  background-color: #cecccc;
+}
