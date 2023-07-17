@@ -20,7 +20,7 @@ export const cambiarPosicion = (setPosicion, mode = 1000, setStart) => {
     const arrPosiciones = [];
     for (let i = 0; i <= 30; i++) {
       
-        let clientX = Math.round(Math.random() * (100 - 10) + 10);
+        let clientX = Math.round(Math.random() * (95 - 10) + 10);
         let clientY = Math.round(Math.random() * (70 - 10) + 10);
         arrPosiciones.push({
           x: clientX,
